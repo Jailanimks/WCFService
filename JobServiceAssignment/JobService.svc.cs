@@ -57,12 +57,6 @@ namespace JobServiceAssignment
             Job8.JobDesc = "Java";
             LstJobs.Add(Job8);
 
-
-            JobOpenings Job9 = new JobOpenings();
-            Job9.JobRole = "Project Lead";
-            Job9.JobDesc = "Java";
-            LstJobs.Add(Job9);
-
             return LstJobs;
         }
 
